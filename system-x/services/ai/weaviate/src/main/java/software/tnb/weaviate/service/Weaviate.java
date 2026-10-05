@@ -30,6 +30,6 @@ public abstract class Weaviate extends Service<NoAccount, NoClient, NoValidation
 
     @Override
     public String defaultImage() {
-        return "quay.io/fuse_qe/weaviate:1.37.4";
+        return "icr.io/ppc64le-oss/weaviate-ppc64le:1.31.1";
     }
 }
